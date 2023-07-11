@@ -62,8 +62,6 @@
   font-style: italic;
 }
 
-
-
 .header__logo{
   display: grid;
   justify-items: center;
@@ -84,7 +82,7 @@
 }
 
 .cover{
-  background-image: url(../images/cover.jpg);
+  background-image: url(./images/cover.jpg);
   background-size: cover;
   z-index: -1;
   color: white;
@@ -243,10 +241,14 @@
 .lots__look-more-link{
   font-size: 20px;
   line-height: normal;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid;
   margin-left: 40px;
 }
 
+.lots__look-more-link:hover{
+  border-bottom: none;
+}
 .about{
   margin-bottom: 174px;
 }
