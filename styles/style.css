@@ -59,7 +59,7 @@
 
 .header__links-list-item_no-bullit{
   list-style: none;
-  font-style: italic;
+  font-style: normal;
 }
 
 .header__logo{
@@ -82,7 +82,7 @@
 }
 
 .cover{
-  background-image: url(./images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   z-index: -1;
   color: white;
